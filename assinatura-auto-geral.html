@@ -1,0 +1,100 @@
+
+<html>
+<head>
+<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript" charset="utf-8" async defer></script>
+    <script>
+    $(function(){
+        $('input, select').on('change keyup click blur', function(){
+            console.debug($(this).val());
+            $('.' + $(this).attr('id')).text($(this).val().trim());
+        });
+        $('form').on('submit', function(evt){evt.preventDefault(); return false;})
+    });
+    </script>
+</head>
+<body style="padding:20px">
+<div class="row">
+<div class="col-sm-6 col-sm-offset-3">
+<form>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Seu Nome</label>
+    <input type="text" class="form-control" id="nome" placeholder="Nome">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Seu Cargo</label>
+    <input type="text" class="form-control" id="cargo" placeholder="Cargo">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Telefone</label>
+    <input type="text" class="form-control" id="telefone" placeholder="(xx)xxxxx-xxxx">
+  </div>
+  <button type="submit" class="btn btn-default">Gerar</button>
+</form>
+</div>
+</div>
+<br>
+<div style="float:none; clear:both"></div>
+<div>------------------ copie abaixo --------------------------  </div>
+
+    <table style="font-family: mada, helvetica, sans-serif; color: #4e4e4e; vertica-align:top;">
+        <tr>
+            <td valign="top"><img src="https://docs.google.com/uc?id=1HakBl4N4waCkjEVk03cSeEje4gsemDme" width="80px"></td>
+            <td  style="padding-left: 10px;">
+                <table width="300px;">
+                    <tr>
+                        <td valign="top" style="border-bottom: 2px solid #009dff; font-size: 18px; font-weight: bolder; font-family: mada, helvetica, sans-serif; color: #4e4e4e; vertical-align:top" class="nome">
+                                ANDRÉ STABILE
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="font-size: 16px; font-family: mada, helvetica, sans-serif; font-weight: 400; color: #4e4e4e; vertical-align:top" class="cargo">Atendimento</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <table>
+                                            <tr>
+                                                <td>
+                                                    <table>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="https://docs.google.com/uc?id=1VqbQpAnMYUa1xvuStaCmjT9VxsPPLltZ" width="15px">
+                                                            </td>
+                                                            <td style="font-size: 14px; font-family: mada, helvetica, sans-serif; font-weight: 400; color: #4e4e4e; vertical-align:top" class="telefone" >
+                                                                  (16)3289-0030
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table>
+                                <td  ><a href="http://www.libercapital.com.br" style="font-size:14px; font-family: mada, helvetica, sans-serif; color: #009dff; text-align: center; font-weight: bold; text-decoration: none; text-align: right; ">www.libercapital.com.br</a></td>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+
+        </tr>
+
+    </table>
+    <br>
+    <span style="font-size: 10px; text-align: justify; color: #d3d3d3;">O conteúdo deste e-mail pode conter informações confidenciais da Liber Capital ou de terceiros, para uso exclusivo do destinatário pretendido. Se você tem razão para supor que recebeu este e-mail por engano, por favor avise seu remetente e apague o e-mail em seguida, sob as penas da lei.</span>
+
+
+<div>------------------ copie acima --------------------------  </div>
+</body>
+</html>
