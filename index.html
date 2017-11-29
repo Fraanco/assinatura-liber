@@ -1,0 +1,122 @@
+
+<html>
+<head>
+<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript" charset="utf-8" async defer></script>
+    <script>
+    $(function(){
+        $('input, select').on('change keyup click blur', function(){
+            console.debug($(this).val());
+            $('.' + $(this).attr('id')).text($(this).val().trim());
+        });
+        $('form').on('submit', function(evt){evt.preventDefault(); return false;})
+    });
+    </script>
+</head>
+<body style="padding:20px">
+<div class="row">
+<div class="col-sm-6 col-sm-offset-3">
+<form>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Seu Nome</label>
+    <input type="text" class="form-control" id="nome" placeholder="Nome">
+  </div>
+
+  <button type="submit" class="btn btn-default">Gerar</button>
+</form>
+</div>
+</div>
+<br>
+<div style="float:none; clear:both"></div>
+<div>------------------ copie abaixo --------------------------  </div>
+<table style="font-family: mada, helvetica, sans-serif; color: #4e4e4e; vertica-align:top;">
+    <tr>
+        <td valign="top"><img src="https://lh4.googleusercontent.com/GcIhXms9c5vNrcIkHI1-JUxHFw-SH02bnzeDObFlHdQ6pC0XE2Odrh4vczg0-bFkNBi_WpQVfkVcy5EDgZVe=w2880-h1448" width="120px"></td>
+        <td  style="padding-left: 10px;">
+            <table width="360px;">
+                <tr>
+                    <td style="border-bottom: 2px solid #009dff; font-size: 20px; font-weight: bolder; font-family: mada, helvetica, sans-serif; color: #4e4e4e; vertica-align:top;" class="nome">
+                            ANDRÉ STABILE
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table>
+                            <tr>
+                                <td>
+                                    <table>
+                                        <tr>
+                                            <td style="padding-top: 5px;">
+                                                <table>
+                                                    <tr>
+                                                        <td>
+                                                            <img src="https://lh6.googleusercontent.com/ZbfkTdOaBhvEqPzNEq6184W2Pday90q-Clyb3e94lR2MFzl_QWfOLVru2yqTqGP5uSB9v8evOIzcx8W1-eLb=w2880-h1448" width="15px">
+                                                        </td>
+                                                        <td>
+                                                              (16)3289-0030
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                            <td style="padding-top: 5px;">
+                                                <table>
+                                                    <tr>
+                                                        <td  style="padding-left:8px;">
+                                                            <img src="https://lh3.googleusercontent.com/l9qWFnqkmdyABZ8F3KwE59CJcB12s4axeIXz1qJY5utTxjiiG2WnQ0AHaxP06yd8kaLfCVR2CQ9GhB7Gquui=w2880-h1448" width="15px" >
+                                                        </td>
+                                                        <td  >
+                                                              (16)99750-9299
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td  >
+                                    <table>
+                                        <tr>
+                                            <td><img src="https://lh4.googleusercontent.com/-dDO-kmCs3gTCo_zDd3Ew3L4_KB_GqXL5cvOLmHp4NYQJjymkGNGsH77JdPhqf4HxmKw4QOLbPrJrifzb_Rt=w2880-h1448" width="15px"></td>
+                                            <td style="padding-left: 2px;">
+                                                Libercapital
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <span style="white-space: nowrap">Av. Antônio Diederichsen, 400 - 14020-250 Ribeirão Preto, SP</span>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table>
+                            <td  ><a href="http://www.libercapital.com.br" style="font-family: mada, helvetica, sans-serif; color: #009dff; text-align: center; font-weight: bold; text-decoration: none; text-align: right; ">www.libercapital.com.br</a></td>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+
+    </tr>
+
+</table>
+
+<div>------------------ copie acima --------------------------  </div>
+</body>
+</html>
